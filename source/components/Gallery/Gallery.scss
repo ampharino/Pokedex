@@ -1,0 +1,90 @@
+.Gallery{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width:70%;
+  padding:5%;
+  background:dimgrey;
+
+  .normal{
+    color:white;
+    background-color:darkkhaki;
+  }
+  .fighting{
+    color:white;
+    background-color:crimson;
+  }
+  .flying{
+    color:white;
+    background-color:mediumpurple;
+  }
+  .poison{
+    color:white;
+    background-color:purple;
+  }
+  .ground{
+    color:white;
+    background-color:tan;
+  }
+  .rock{
+    color:white;
+    background-color:olive;
+  }
+  .bug{
+    color:white;
+    background-color:olivedrab;
+  }
+  .ghost{
+    color:white;
+    background-color:rebeccapurple;
+  }
+  .steel{
+    color:white;
+    background-color:slategray;
+  }
+  .fire{
+    color:white;
+    background-color:orangered;
+  }
+  .water{
+    color:white;
+    background-color:dodgerblue;
+  }
+  .grass{
+    color:white;
+    background-color:limegreen;
+  }
+  .electric{
+    color:white;
+    background-color:gold;
+  }
+  .psychic{
+    color:white;
+    background-color:deeppink;
+  }
+  .ice{
+    color:white;
+    background-color:darkturquoise;
+  }
+  .dragon{
+    color:white;
+    background-color:indigo;
+  }
+  .dark{
+    color:white;
+    background-color:black;
+  }
+  .fairy{
+    color:white;
+    background-color:hotpink;
+  }
+  .unknown{
+    color:white;
+    background-color:mediumaquamarine;
+}
+  .shadow{
+    color:white;
+    background-color:darkslategray;
+  }
+}

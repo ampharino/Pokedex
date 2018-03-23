@@ -1,0 +1,115 @@
+.Detail{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:50%;
+  padding:3%;
+  background:grey;
+  text-align:left;
+  color:white;
+  max-height:50%;
+  .Heading{
+    background-color:crimson;
+    color:white;
+    margin:auto;
+    .normal{
+      color:white;
+      background-color:darkkhaki;
+    }
+    .fighting{
+      color:white;
+      background-color:crimson;
+    }
+    .flying{
+      color:white;
+      background-color:mediumpurple;
+    }
+    .poison{
+      color:white;
+      background-color:purple;
+    }
+    .ground{
+      color:white;
+      background-color:tan;
+    }
+    .rock{
+      color:white;
+      background-color:olive;
+    }
+    .bug{
+      color:white;
+      background-color:olivedrab;
+    }
+    .ghost{
+      color:white;
+      background-color:rebeccapurple;
+    }
+    .steel{
+      color:white;
+      background-color:slategray;
+    }
+    .fire{
+      color:white;
+      background-color:orangered;
+    }
+    .water{
+      color:white;
+      background-color:dodgerblue;
+    }
+    .grass{
+      color:white;
+      background-color:limegreen;
+    }
+    .electric{
+      color:white;
+      background-color:gold;
+    }
+    .psychic{
+      color:white;
+      background-color:deeppink;
+    }
+    .ice{
+      color:white;
+      background-color:darkturquoise;
+    }
+    .dragon{
+      color:white;
+      background-color:indigo;
+    }
+    .dark{
+      color:white;
+      background-color:black;
+    }
+    .fairy{
+      color:white;
+      background-color:hotpink;
+    }
+    .unknown{
+      color:white;
+      background-color:mediumaquamarine;
+    }
+    .shadow{
+      color:white;
+      background-color:darkslategray;
+    }
+  }
+  .Content{
+    background-color:white;
+    color:black;
+    margin:auto;
+  }
+
+}
+.Left{
+  top:50%;
+  transform: translateY(-50%);
+  position:absolute;
+  left:0;
+}
+.Right{
+  top:50%;
+  transform: translateY(-50%);
+  position:absolute;
+  right:0;
+}
